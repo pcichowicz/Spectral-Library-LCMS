@@ -7,6 +7,10 @@ description: >-
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 
+kramdown:
+  input: GFM # Default on GitHub Pages - does NOT support {: .class }
+  # Changing this to 'kramdown' enables {: .class } but may break tables/lists
+
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
