@@ -17,7 +17,7 @@ not this page.
 <div id="qc-loading">Loading latest report…</div>
 <div id="qc-error" style="display:none; color:#c1121f;"></div>
 
-<div id="qc-content" style="display:none;" markdown="1">
+<div id="qc-content" style="display:none;">
 
 <div id="qc-meta"></div>
 
