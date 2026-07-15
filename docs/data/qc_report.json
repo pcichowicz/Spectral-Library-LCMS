@@ -39,7 +39,7 @@
   "processing_log": [
     {
       "stage": "ingestion",
-      "timestamp": "2026-07-13T22:19:31.402906+00:00",
+      "timestamp": "2026-07-15T14:10:23.980906+00:00",
       "parameters": {
         "mzml_dir": "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861"
       },
@@ -61,8 +61,8 @@
       }
     },
     {
-      "step": "system_suitability",
-      "timestamp": "2026-07-11T17:42:17.485323+00:00",
+      "stage": "system_suitability",
+      "timestamp": "2026-07-15T13:44:43.265776+00:00",
       "parameters": {
         "ppm_tolerance": 5.0
       },
@@ -71,6 +71,12 @@
         "n_confirmed": 2
       },
       "warnings": [],
+      "input_files": [
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/mtbls1861_sample_metadata.csv",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Tryptophan-442.mzML",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Glycine-414.mzML"
+      ],
+      "output_dirs": [],
       "config_version": "v0.1",
       "software_versions": {
         "python": "3.13.5",
@@ -78,8 +84,8 @@
       }
     },
     {
-      "step": "feature_detection",
-      "timestamp": "2026-07-11T18:09:48.815846+00:00",
+      "stage": "feature_detection",
+      "timestamp": "2026-07-15T14:08:10.594943+00:00",
       "parameters": {
         "mass_error_ppm": 5.0,
         "peak_width": [
@@ -95,6 +101,16 @@
         "n_with_features": 3
       },
       "warnings": [],
+      "input_files": [
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Tryptophan-442.mzML",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Glycine-414.mzML",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/BLK_MEOH_IPA-380.mzML"
+      ],
+      "output_dirs": [
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/Amino_acid_Std_neg_Tryptophan-442.featurejson",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/Amino_acid_Std_neg_Glycine-414.featurejson",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/BLK_MEOH_IPA-380.featurejson"
+      ],
       "config_version": "v0.1",
       "software_versions": {
         "python": "3.13.5",
@@ -102,8 +118,8 @@
       }
     },
     {
-      "step": "blank_qc",
-      "timestamp": "2026-07-11T18:10:46.044930+00:00",
+      "stage": "blank_qc",
+      "timestamp": "2026-07-15T14:09:02.209337+00:00",
       "parameters": {
         "mz_tolerance_ppm": 20.0,
         "rt_tolerance_sec": 20.0
@@ -115,6 +131,10 @@
         "Amino_acid_Std_neg_Tryptophan-442: 117/4034 features overlap with blank background",
         "Amino_acid_Std_neg_Glycine-414: 101/3406 features overlap with blank background"
       ],
+      "input_files": [
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/BLK_MEOH_IPA-380.featurejson"
+      ],
+      "output_dirs": [],
       "config_version": "v0.1",
       "software_versions": {
         "python": "3.13.5",
@@ -123,7 +143,7 @@
     },
     {
       "stage": "adduct_annotation",
-      "timestamp": "2026-07-13T22:19:38.987983+00:00",
+      "timestamp": "2026-07-15T14:10:31.556340+00:00",
       "parameters": {
         "candidate_adducts": [
           "[M-H]-",
@@ -149,7 +169,7 @@
     },
     {
       "stage": "spectral_purity",
-      "timestamp": "2026-07-13T22:19:47.571046+00:00",
+      "timestamp": "2026-07-15T14:10:41.146615+00:00",
       "parameters": {
         "isolation_window_da": 1.0,
         "min_purity": 0.7
@@ -169,8 +189,40 @@
       }
     },
     {
+      "stage": "library_matching",
+      "timestamp": "2026-07-15T14:10:49.414688+00:00",
+      "parameters": {
+        "reference_library_path": "/Users/patrick/Desktop/lcms_analysis_api/v3/reference_libraries/EMBL-MCF_negative.msp",
+        "reference_library_format": "msp",
+        "precursor_mz_tolerance_ppm": 10.0,
+        "fragment_mz_tolerance_da": 0.02,
+        "min_match_score": 0.7,
+        "logic_version": "v1"
+      },
+      "metrics": {
+        "n_attempted": 2,
+        "n_with_ms2": 2,
+        "n_matched": 1,
+        "n_correct": 1
+      },
+      "warnings": [
+        "Amino_acid_Std_neg_Glycine-414: no library entry within 10.0 ppm of 'Glycine' (m/z 74.023338317871) -- no match found"
+      ],
+      "input_files": [
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/reference_libraries/EMBL-MCF_negative.msp",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Tryptophan-442.mzML",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Glycine-414.mzML"
+      ],
+      "output_dirs": [],
+      "config_version": "v0.1",
+      "software_versions": {
+        "python": "3.13.5",
+        "pymzml": "2.6"
+      }
+    },
+    {
       "stage": "library_assembly",
-      "timestamp": "2026-07-13T22:19:47.629545+00:00",
+      "timestamp": "2026-07-15T14:10:49.488974+00:00",
       "parameters": {
         "mz_tolerance_ppm": 5.0
       },
@@ -190,5 +242,114 @@
       }
     }
   ],
-  "raw_qc_metrics": {}
+  "raw_qc_metrics": {
+    "library_matching": {
+      "results": {
+        "Amino_acid_Std_neg_Tryptophan-442": {
+          "status": "checked",
+          "matches": [
+            {
+              "compound": "Tryptophan",
+              "expected_mz": 203.081699664438,
+              "ms2_spectrum": [
+                [
+                  67.31434631347656,
+                  10051345.0
+                ],
+                [
+                  72.00759887695312,
+                  53019500.0
+                ],
+                [
+                  74.02325439453125,
+                  171379072.0
+                ],
+                [
+                  116.04927062988281,
+                  847221120.0
+                ],
+                [
+                  130.06492614746094,
+                  26452754.0
+                ],
+                [
+                  142.06491088867188,
+                  174635120.0
+                ]
+              ],
+              "n_ms2_peaks": 6,
+              "library_match_id": "MSP_000051",
+              "match_compound_name": "Tryptophan",
+              "match_score": 0.8598801581569099,
+              "match_adduct": null,
+              "known_identity": "Tryptophan",
+              "is_correct_match": true,
+              "status": "matched"
+            }
+          ]
+        },
+        "Amino_acid_Std_neg_Glycine-414": {
+          "status": "checked",
+          "matches": [
+            {
+              "compound": "Glycine",
+              "expected_mz": 74.023338317871,
+              "ms2_spectrum": [
+                [
+                  55.19908142089844,
+                  410512.3125
+                ],
+                [
+                  57.611968994140625,
+                  420975.625
+                ],
+                [
+                  66.7303466796875,
+                  417542.21875
+                ],
+                [
+                  74.02338409423828,
+                  3606039.0
+                ],
+                [
+                  75.30306243896484,
+                  369576.28125
+                ],
+                [
+                  80.71041107177734,
+                  378279.125
+                ],
+                [
+                  86.82290649414062,
+                  402007.5625
+                ],
+                [
+                  91.71412658691406,
+                  396120.09375
+                ],
+                [
+                  92.79996490478516,
+                  398838.21875
+                ]
+              ],
+              "n_ms2_peaks": 9,
+              "library_match_id": null,
+              "match_compound_name": null,
+              "match_score": null,
+              "match_adduct": null,
+              "known_identity": "Glycine",
+              "is_correct_match": false,
+              "status": "no_precursor_candidates"
+            }
+          ]
+        }
+      },
+      "n_attempted": 2,
+      "n_with_ms2": 2,
+      "n_matched": 1,
+      "n_correct": 1,
+      "validation_rate": 0.5,
+      "reference_library_size": 302
+    }
+  }
 }
