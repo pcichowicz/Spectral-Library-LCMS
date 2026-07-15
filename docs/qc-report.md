@@ -2,10 +2,10 @@
 layout: default
 title: QC Report
 nav_order: 5
+has_toc: false
 ---
 
 # QC Report
-{: .no_toc }
 
 This page renders the pipeline's own output -- `qc_report.json` and
 `library.csv` -- committed to `docs/data/` by
