@@ -1,0 +1,1350 @@
+{
+  "stage": "blank_qc",
+  "key": "258e73df6a0f7376c86f66eb59a77eca614b0227ccf2cf7d7dc31a67c06b61c0",
+  "qc_metrics": {
+    "results": {
+      "Amino_acid_Std_neg_Tryptophan-442": {
+        "status": "checked",
+        "n_features": 4034,
+        "n_flagged": 117,
+        "flagged": [
+          {
+            "feature_mz": 171.06536865234375,
+            "feature_rt": 7.2483978,
+            "matched_blank_mz": 171.0624542236328,
+            "matched_blank_rt": 5.37632
+          },
+          {
+            "feature_mz": 124.03902435302734,
+            "feature_rt": 4.92677208,
+            "matched_blank_mz": 124.03948974609375,
+            "matched_blank_rt": 4.59168
+          },
+          {
+            "feature_mz": 199.13270568847656,
+            "feature_rt": 12.210647999999999,
+            "matched_blank_mz": 199.1322784423828,
+            "matched_blank_rt": 4.59168
+          },
+          {
+            "feature_mz": 239.12791442871094,
+            "feature_rt": 11.6692722,
+            "matched_blank_mz": 239.1282196044922,
+            "matched_blank_rt": 3.09258
+          },
+          {
+            "feature_mz": 281.24761962890625,
+            "feature_rt": 7.7981484000000005,
+            "matched_blank_mz": 281.25042724609375,
+            "matched_blank_rt": 10.1109
+          },
+          {
+            "feature_mz": 184.88563537597656,
+            "feature_rt": 10.010647800000001,
+            "matched_blank_mz": 184.88864135742188,
+            "matched_blank_rt": 3.09258
+          },
+          {
+            "feature_mz": 242.17515563964844,
+            "feature_rt": 25.0271628,
+            "matched_blank_mz": 242.1762237548828,
+            "matched_blank_rt": 14.583
+          },
+          {
+            "feature_mz": 269.2122497558594,
+            "feature_rt": 27.2644152,
+            "matched_blank_mz": 269.2127990722656,
+            "matched_blank_rt": 39.6933
+          },
+          {
+            "feature_mz": 213.14852905273438,
+            "feature_rt": 28.365295800000002,
+            "matched_blank_mz": 213.1482696533203,
+            "matched_blank_rt": 27.9204
+          },
+          {
+            "feature_mz": 197.1534423828125,
+            "feature_rt": 18.391281000000003,
+            "matched_blank_mz": 197.15325927734375,
+            "matched_blank_rt": 0.803718
+          },
+          {
+            "feature_mz": 200.17250061035156,
+            "feature_rt": 22.837664999999998,
+            "matched_blank_mz": 200.17446899414062,
+            "matched_blank_rt": 10.8988
+          },
+          {
+            "feature_mz": 157.0496826171875,
+            "feature_rt": 18.391281000000003,
+            "matched_blank_mz": 157.04702758789062,
+            "matched_blank_rt": 5.37632
+          },
+          {
+            "feature_mz": 159.10134887695312,
+            "feature_rt": 21.162657000000003,
+            "matched_blank_mz": 159.1005401611328,
+            "matched_blank_rt": 9.32017
+          },
+          {
+            "feature_mz": 199.13282775878906,
+            "feature_rt": 22.2801654,
+            "matched_blank_mz": 199.1322784423828,
+            "matched_blank_rt": 4.59168
+          },
+          {
+            "feature_mz": 242.1755828857422,
+            "feature_rt": 30.027298200000004,
+            "matched_blank_mz": 242.1762237548828,
+            "matched_blank_rt": 14.583
+          },
+          {
+            "feature_mz": 159.06504821777344,
+            "feature_rt": 10.560531,
+            "matched_blank_mz": 159.06466674804688,
+            "matched_blank_rt": 0.803718
+          },
+          {
+            "feature_mz": 158.08099365234375,
+            "feature_rt": 13.8679032,
+            "matched_blank_mz": 158.080810546875,
+            "matched_blank_rt": 3.09258
+          },
+          {
+            "feature_mz": 131.070068359375,
+            "feature_rt": 10.010647800000001,
+            "matched_blank_mz": 131.07005310058594,
+            "matched_blank_rt": 0.803718
+          },
+          {
+            "feature_mz": 253.2170867919922,
+            "feature_rt": 50.151692999999995,
+            "matched_blank_mz": 253.2184295654297,
+            "matched_blank_rt": 38.1032
+          },
+          {
+            "feature_mz": 265.14697265625,
+            "feature_rt": 50.151692999999995,
+            "matched_blank_mz": 265.1468505859375,
+            "matched_blank_rt": 51.474
+          },
+          {
+            "feature_mz": 213.1486358642578,
+            "feature_rt": 42.3890532,
+            "matched_blank_mz": 213.1482696533203,
+            "matched_blank_rt": 27.9204
+          },
+          {
+            "feature_mz": 182.98736572265625,
+            "feature_rt": 34.5695574,
+            "matched_blank_mz": 182.9846954345703,
+            "matched_blank_rt": 42.9873
+          },
+          {
+            "feature_mz": 269.2117919921875,
+            "feature_rt": 48.5236914,
+            "matched_blank_mz": 269.2127990722656,
+            "matched_blank_rt": 39.6933
+          },
+          {
+            "feature_mz": 253.21665954589844,
+            "feature_rt": 61.099326,
+            "matched_blank_mz": 253.21951293945312,
+            "matched_blank_rt": 76.1589
+          },
+          {
+            "feature_mz": 165.0181427001953,
+            "feature_rt": 56.9111988,
+            "matched_blank_mz": 165.01901245117188,
+            "matched_blank_rt": 48.3393
+          },
+          {
+            "feature_mz": 269.2481994628906,
+            "feature_rt": 76.126842,
+            "matched_blank_mz": 269.2492370605469,
+            "matched_blank_rt": 81.463
+          },
+          {
+            "feature_mz": 199.13320922851562,
+            "feature_rt": 79.973094,
+            "matched_blank_mz": 199.13230895996094,
+            "matched_blank_rt": 83.4659
+          },
+          {
+            "feature_mz": 253.21665954589844,
+            "feature_rt": 72.31521,
+            "matched_blank_mz": 253.21951293945312,
+            "matched_blank_rt": 76.1589
+          },
+          {
+            "feature_mz": 179.03700256347656,
+            "feature_rt": 61.62607199999999,
+            "matched_blank_mz": 179.03456115722656,
+            "matched_blank_rt": 49.7994
+          },
+          {
+            "feature_mz": 269.2112731933594,
+            "feature_rt": 78.327096,
+            "matched_blank_mz": 269.2113952636719,
+            "matched_blank_rt": 81.463
+          },
+          {
+            "feature_mz": 201.11264038085938,
+            "feature_rt": 83.323842,
+            "matched_blank_mz": 201.10987854003906,
+            "matched_blank_rt": 80.1428
+          },
+          {
+            "feature_mz": 205.15870666503906,
+            "feature_rt": 63.213449999999995,
+            "matched_blank_mz": 205.1583709716797,
+            "matched_blank_rt": 56.1923
+          },
+          {
+            "feature_mz": 283.26336669921875,
+            "feature_rt": 53.7766962,
+            "matched_blank_mz": 283.26568603515625,
+            "matched_blank_rt": 58.5788
+          },
+          {
+            "feature_mz": 211.13287353515625,
+            "feature_rt": 81.67421399999999,
+            "matched_blank_mz": 211.13229370117188,
+            "matched_blank_rt": 80.7841
+          },
+          {
+            "feature_mz": 108.04396057128906,
+            "feature_rt": 56.9111988,
+            "matched_blank_mz": 108.04458618164062,
+            "matched_blank_rt": 68.9872
+          },
+          {
+            "feature_mz": 169.08558654785156,
+            "feature_rt": 52.234187999999996,
+            "matched_blank_mz": 169.08645629882812,
+            "matched_blank_rt": 55.2097
+          },
+          {
+            "feature_mz": 155.0004119873047,
+            "feature_rt": 20.059039199999997,
+            "matched_blank_mz": 155.00253295898438,
+            "matched_blank_rt": 23.9899
+          },
+          {
+            "feature_mz": 105.03096771240234,
+            "feature_rt": 100.14498599999999,
+            "matched_blank_mz": 105.03058624267578,
+            "matched_blank_rt": 81.463
+          },
+          {
+            "feature_mz": 190.04978942871094,
+            "feature_rt": 49.0779402,
+            "matched_blank_mz": 190.04933166503906,
+            "matched_blank_rt": 53.8801
+          },
+          {
+            "feature_mz": 199.13267517089844,
+            "feature_rt": 119.70337799999999,
+            "matched_blank_mz": 199.13314819335938,
+            "matched_blank_rt": 120.08700000000002
+          },
+          {
+            "feature_mz": 269.2117004394531,
+            "feature_rt": 120.246252,
+            "matched_blank_mz": 269.2127990722656,
+            "matched_blank_rt": 105.198
+          },
+          {
+            "feature_mz": 253.2169189453125,
+            "feature_rt": 133.052514,
+            "matched_blank_mz": 253.21875,
+            "matched_blank_rt": 117.067
+          },
+          {
+            "feature_mz": 269.24835205078125,
+            "feature_rt": 130.242762,
+            "matched_blank_mz": 269.24951171875,
+            "matched_blank_rt": 121.61199999999998
+          },
+          {
+            "feature_mz": 157.0857391357422,
+            "feature_rt": 61.099326,
+            "matched_blank_mz": 157.0839385986328,
+            "matched_blank_rt": 42.1902
+          },
+          {
+            "feature_mz": 185.11660766601562,
+            "feature_rt": 55.847694,
+            "matched_blank_mz": 185.11688232421875,
+            "matched_blank_rt": 69.7874
+          },
+          {
+            "feature_mz": 159.10145568847656,
+            "feature_rt": 62.140319999999996,
+            "matched_blank_mz": 159.10093688964844,
+            "matched_blank_rt": 80.7841
+          },
+          {
+            "feature_mz": 163.0384063720703,
+            "feature_rt": 146.368404,
+            "matched_blank_mz": 163.0384063720703,
+            "matched_blank_rt": 135.954
+          },
+          {
+            "feature_mz": 199.13272094726562,
+            "feature_rt": 148.43391,
+            "matched_blank_mz": 199.13345336914062,
+            "matched_blank_rt": 151.931
+          },
+          {
+            "feature_mz": 108.04413604736328,
+            "feature_rt": 147.92652600000002,
+            "matched_blank_mz": 108.04449462890625,
+            "matched_blank_rt": 141.595
+          },
+          {
+            "feature_mz": 169.08595275878906,
+            "feature_rt": 139.72213799999997,
+            "matched_blank_mz": 169.08700561523438,
+            "matched_blank_rt": 123.216
+          },
+          {
+            "feature_mz": 103.9551773071289,
+            "feature_rt": 147.92652600000002,
+            "matched_blank_mz": 103.95547485351562,
+            "matched_blank_rt": 137.671
+          },
+          {
+            "feature_mz": 129.05435180664062,
+            "feature_rt": 57.956200200000005,
+            "matched_blank_mz": 129.05422973632812,
+            "matched_blank_rt": 55.2097
+          },
+          {
+            "feature_mz": 117.01786041259766,
+            "feature_rt": 145.730526,
+            "matched_blank_mz": 117.01944732666016,
+            "matched_blank_rt": 128.1
+          },
+          {
+            "feature_mz": 126.0545654296875,
+            "feature_rt": 2.7417659399999996,
+            "matched_blank_mz": 126.05477905273438,
+            "matched_blank_rt": 16.9071
+          },
+          {
+            "feature_mz": 115.03856658935547,
+            "feature_rt": 75.03471,
+            "matched_blank_mz": 115.03868103027344,
+            "matched_blank_rt": 85.7634
+          },
+          {
+            "feature_mz": 122.03134155273438,
+            "feature_rt": 57.956200200000005,
+            "matched_blank_mz": 122.031494140625,
+            "matched_blank_rt": 68.1881
+          },
+          {
+            "feature_mz": 163.03895568847656,
+            "feature_rt": 228.707604,
+            "matched_blank_mz": 163.0386199951172,
+            "matched_blank_rt": 221.218
+          },
+          {
+            "feature_mz": 211.13243103027344,
+            "feature_rt": 235.045356,
+            "matched_blank_mz": 211.1326904296875,
+            "matched_blank_rt": 246.30500000000004
+          },
+          {
+            "feature_mz": 238.91200256347656,
+            "feature_rt": 270.881766,
+            "matched_blank_mz": 238.90853881835938,
+            "matched_blank_rt": 259.045
+          },
+          {
+            "feature_mz": 205.1582794189453,
+            "feature_rt": 219.275592,
+            "matched_blank_mz": 205.1591796875,
+            "matched_blank_rt": 215.567
+          },
+          {
+            "feature_mz": 199.13314819335938,
+            "feature_rt": 299.473668,
+            "matched_blank_mz": 199.13258361816406,
+            "matched_blank_rt": 299.037
+          },
+          {
+            "feature_mz": 205.15890502929688,
+            "feature_rt": 293.245284,
+            "matched_blank_mz": 205.1590118408203,
+            "matched_blank_rt": 311.22
+          },
+          {
+            "feature_mz": 238.9123077392578,
+            "feature_rt": 293.245284,
+            "matched_blank_mz": 238.9084930419922,
+            "matched_blank_rt": 303.957
+          },
+          {
+            "feature_mz": 253.21685791015625,
+            "feature_rt": 315.260802,
+            "matched_blank_mz": 253.21832275390625,
+            "matched_blank_rt": 314.362
+          },
+          {
+            "feature_mz": 211.1328582763672,
+            "feature_rt": 336.993078,
+            "matched_blank_mz": 211.13311767578125,
+            "matched_blank_rt": 323.216
+          },
+          {
+            "feature_mz": 159.9694366455078,
+            "feature_rt": 372.969738,
+            "matched_blank_mz": 159.9688262939453,
+            "matched_blank_rt": 380.423
+          },
+          {
+            "feature_mz": 211.1331329345703,
+            "feature_rt": 395.95938,
+            "matched_blank_mz": 211.1326904296875,
+            "matched_blank_rt": 381.221
+          },
+          {
+            "feature_mz": 309.85552978515625,
+            "feature_rt": 402.366882,
+            "matched_blank_mz": 309.85595703125,
+            "matched_blank_rt": 408.486
+          },
+          {
+            "feature_mz": 141.05433654785156,
+            "feature_rt": 440.19766799999996,
+            "matched_blank_mz": 141.0541534423828,
+            "matched_blank_rt": 446.089
+          },
+          {
+            "feature_mz": 211.13265991210938,
+            "feature_rt": 442.435044,
+            "matched_blank_mz": 211.13320922851562,
+            "matched_blank_rt": 462.055
+          },
+          {
+            "feature_mz": 211.1328125,
+            "feature_rt": 462.11706599999997,
+            "matched_blank_mz": 211.13320922851562,
+            "matched_blank_rt": 462.055
+          },
+          {
+            "feature_mz": 159.10133361816406,
+            "feature_rt": 457.886442,
+            "matched_blank_mz": 159.1009063720703,
+            "matched_blank_rt": 461.258
+          },
+          {
+            "feature_mz": 198.95315551757812,
+            "feature_rt": 479.409462,
+            "matched_blank_mz": 198.95643615722656,
+            "matched_blank_rt": 467.718
+          },
+          {
+            "feature_mz": 199.1327362060547,
+            "feature_rt": 480.48608399999995,
+            "matched_blank_mz": 199.13221740722656,
+            "matched_blank_rt": 474.036
+          },
+          {
+            "feature_mz": 159.101318359375,
+            "feature_rt": 477.25870199999997,
+            "matched_blank_mz": 159.1009063720703,
+            "matched_blank_rt": 461.258
+          },
+          {
+            "feature_mz": 213.14866638183594,
+            "feature_rt": 511.194984,
+            "matched_blank_mz": 213.14862060546875,
+            "matched_blank_rt": 498.841
+          },
+          {
+            "feature_mz": 211.13307189941406,
+            "feature_rt": 489.77959200000004,
+            "matched_blank_mz": 211.1332550048828,
+            "matched_blank_rt": 505.193
+          },
+          {
+            "feature_mz": 211.1328125,
+            "feature_rt": 534.403014,
+            "matched_blank_mz": 211.13282775878906,
+            "matched_blank_rt": 531.598
+          },
+          {
+            "feature_mz": 213.14837646484375,
+            "feature_rt": 577.449294,
+            "matched_blank_mz": 213.14878845214844,
+            "matched_blank_rt": 581.363
+          },
+          {
+            "feature_mz": 145.08543395996094,
+            "feature_rt": 592.0983060000001,
+            "matched_blank_mz": 145.08531188964844,
+            "matched_blank_rt": 601.417
+          },
+          {
+            "feature_mz": 141.05435180664062,
+            "feature_rt": 600.90306,
+            "matched_blank_mz": 141.05418395996094,
+            "matched_blank_rt": 591.0
+          },
+          {
+            "feature_mz": 211.13287353515625,
+            "feature_rt": 631.47474,
+            "matched_blank_mz": 211.1326904296875,
+            "matched_blank_rt": 627.843
+          },
+          {
+            "feature_mz": 269.2121276855469,
+            "feature_rt": 624.56496,
+            "matched_blank_mz": 269.2123718261719,
+            "matched_blank_rt": 624.585
+          },
+          {
+            "feature_mz": 189.0753631591797,
+            "feature_rt": 656.6440200000001,
+            "matched_blank_mz": 189.07298278808594,
+            "matched_blank_rt": 657.467
+          },
+          {
+            "feature_mz": 213.14903259277344,
+            "feature_rt": 695.39514,
+            "matched_blank_mz": 213.1490020751953,
+            "matched_blank_rt": 701.909
+          },
+          {
+            "feature_mz": 141.05426025390625,
+            "feature_rt": 693.6654,
+            "matched_blank_mz": 141.05421447753906,
+            "matched_blank_rt": 694.714
+          },
+          {
+            "feature_mz": 198.95321655273438,
+            "feature_rt": 659.94762,
+            "matched_blank_mz": 198.95639038085938,
+            "matched_blank_rt": 653.397
+          },
+          {
+            "feature_mz": 198.95323181152344,
+            "feature_rt": 721.06194,
+            "matched_blank_mz": 198.95652770996094,
+            "matched_blank_rt": 719.431
+          },
+          {
+            "feature_mz": 213.14817810058594,
+            "feature_rt": 745.64922,
+            "matched_blank_mz": 213.14859008789062,
+            "matched_blank_rt": 738.523
+          },
+          {
+            "feature_mz": 211.13284301757812,
+            "feature_rt": 676.9268999999999,
+            "matched_blank_mz": 211.13302612304688,
+            "matched_blank_rt": 692.356
+          },
+          {
+            "feature_mz": 213.1486358642578,
+            "feature_rt": 800.25474,
+            "matched_blank_mz": 213.1486053466797,
+            "matched_blank_rt": 792.893
+          },
+          {
+            "feature_mz": 211.1327667236328,
+            "feature_rt": 801.99348,
+            "matched_blank_mz": 211.13316345214844,
+            "matched_blank_rt": 817.435
+          },
+          {
+            "feature_mz": 147.06578063964844,
+            "feature_rt": 811.6011599999999,
+            "matched_blank_mz": 147.06565856933594,
+            "matched_blank_rt": 826.249
+          },
+          {
+            "feature_mz": 145.08543395996094,
+            "feature_rt": 800.25474,
+            "matched_blank_mz": 145.08555603027344,
+            "matched_blank_rt": 804.035
+          },
+          {
+            "feature_mz": 141.0542755126953,
+            "feature_rt": 817.3152600000001,
+            "matched_blank_mz": 141.0543670654297,
+            "matched_blank_rt": 828.594
+          },
+          {
+            "feature_mz": 213.14862060546875,
+            "feature_rt": 841.6984199999999,
+            "matched_blank_mz": 213.1486053466797,
+            "matched_blank_rt": 823.847
+          },
+          {
+            "feature_mz": 123.04369354248047,
+            "feature_rt": 851.41218,
+            "matched_blank_mz": 123.0441665649414,
+            "matched_blank_rt": 852.782
+          },
+          {
+            "feature_mz": 123.04381561279297,
+            "feature_rt": 877.81158,
+            "matched_blank_mz": 123.04414367675781,
+            "matched_blank_rt": 883.896
+          },
+          {
+            "feature_mz": 193.10728454589844,
+            "feature_rt": 891.93306,
+            "matched_blank_mz": 193.10707092285156,
+            "matched_blank_rt": 883.896
+          },
+          {
+            "feature_mz": 111.05497741699219,
+            "feature_rt": 836.93616,
+            "matched_blank_mz": 111.05538177490234,
+            "matched_blank_rt": 845.456
+          },
+          {
+            "feature_mz": 123.04368591308594,
+            "feature_rt": 906.3021000000001,
+            "matched_blank_mz": 123.0440902709961,
+            "matched_blank_rt": 925.345
+          },
+          {
+            "feature_mz": 213.1488494873047,
+            "feature_rt": 915.9807,
+            "matched_blank_mz": 213.1485137939453,
+            "matched_blank_rt": 896.74
+          },
+          {
+            "feature_mz": 123.0435791015625,
+            "feature_rt": 922.36314,
+            "matched_blank_mz": 123.0440902709961,
+            "matched_blank_rt": 925.345
+          },
+          {
+            "feature_mz": 111.0547866821289,
+            "feature_rt": 933.57486,
+            "matched_blank_mz": 111.0554428100586,
+            "matched_blank_rt": 931.827
+          },
+          {
+            "feature_mz": 139.04986572265625,
+            "feature_rt": 884.8842,
+            "matched_blank_mz": 139.04721069335938,
+            "matched_blank_rt": 876.77
+          },
+          {
+            "feature_mz": 269.21124267578125,
+            "feature_rt": 935.32488,
+            "matched_blank_mz": 269.2126159667969,
+            "matched_blank_rt": 949.266
+          },
+          {
+            "feature_mz": 297.2427673339844,
+            "feature_rt": 938.18724,
+            "matched_blank_mz": 297.2456359863281,
+            "matched_blank_rt": 953.308
+          },
+          {
+            "feature_mz": 172.10470581054688,
+            "feature_rt": 938.76162,
+            "matched_blank_mz": 172.1037139892578,
+            "matched_blank_rt": 937.366
+          },
+          {
+            "feature_mz": 157.12197875976562,
+            "feature_rt": 178.868688,
+            "matched_blank_mz": 157.12254333496094,
+            "matched_blank_rt": 188.798
+          },
+          {
+            "feature_mz": 126.05431365966797,
+            "feature_rt": 187.042806,
+            "matched_blank_mz": 126.05472564697266,
+            "matched_blank_rt": 205.105
+          },
+          {
+            "feature_mz": 129.05422973632812,
+            "feature_rt": 943.45188,
+            "matched_blank_mz": 129.05206298828125,
+            "matched_blank_rt": 930.914
+          },
+          {
+            "feature_mz": 157.08563232421875,
+            "feature_rt": 943.45188,
+            "matched_blank_mz": 157.08334350585938,
+            "matched_blank_rt": 958.846
+          },
+          {
+            "feature_mz": 169.08554077148438,
+            "feature_rt": 923.51388,
+            "matched_blank_mz": 169.08590698242188,
+            "matched_blank_rt": 937.366
+          },
+          {
+            "feature_mz": 253.21661376953125,
+            "feature_rt": 940.479,
+            "matched_blank_mz": 253.21839904785156,
+            "matched_blank_rt": 934.982
+          },
+          {
+            "feature_mz": 211.13307189941406,
+            "feature_rt": 951.52878,
+            "matched_blank_mz": 211.13287353515625,
+            "matched_blank_rt": 970.819
+          },
+          {
+            "feature_mz": 293.1780700683594,
+            "feature_rt": 942.88374,
+            "matched_blank_mz": 293.177490234375,
+            "matched_blank_rt": 924.552
+          },
+          {
+            "feature_mz": 213.14846801757812,
+            "feature_rt": 943.45188,
+            "matched_blank_mz": 213.14840698242188,
+            "matched_blank_rt": 941.372
+          }
+        ]
+      },
+      "Amino_acid_Std_neg_Glycine-414": {
+        "status": "checked",
+        "n_features": 3406,
+        "n_flagged": 101,
+        "flagged": [
+          {
+            "feature_mz": 159.0647430419922,
+            "feature_rt": 20.7467538,
+            "matched_blank_mz": 159.06466674804688,
+            "matched_blank_rt": 0.803718
+          },
+          {
+            "feature_mz": 242.17578125,
+            "feature_rt": 20.7467538,
+            "matched_blank_mz": 242.1762237548828,
+            "matched_blank_rt": 14.583
+          },
+          {
+            "feature_mz": 227.16453552246094,
+            "feature_rt": 17.726623800000002,
+            "matched_blank_mz": 227.16482543945312,
+            "matched_blank_rt": 0.803718
+          },
+          {
+            "feature_mz": 184.88536071777344,
+            "feature_rt": 7.9364946,
+            "matched_blank_mz": 184.88864135742188,
+            "matched_blank_rt": 3.09258
+          },
+          {
+            "feature_mz": 171.06517028808594,
+            "feature_rt": 6.7223682,
+            "matched_blank_mz": 171.0624542236328,
+            "matched_blank_rt": 5.37632
+          },
+          {
+            "feature_mz": 213.14852905273438,
+            "feature_rt": 17.726623800000002,
+            "matched_blank_mz": 213.14776611328125,
+            "matched_blank_rt": 5.37632
+          },
+          {
+            "feature_mz": 199.13284301757812,
+            "feature_rt": 19.5376326,
+            "matched_blank_mz": 199.1322784423828,
+            "matched_blank_rt": 4.59168
+          },
+          {
+            "feature_mz": 220.177978515625,
+            "feature_rt": 15.1986162,
+            "matched_blank_mz": 220.1792449951172,
+            "matched_blank_rt": 3.09258
+          },
+          {
+            "feature_mz": 165.01828002929688,
+            "feature_rt": 28.632756,
+            "matched_blank_mz": 165.01901245117188,
+            "matched_blank_rt": 48.3393
+          },
+          {
+            "feature_mz": 269.2483215332031,
+            "feature_rt": 9.1511142,
+            "matched_blank_mz": 269.25018310546875,
+            "matched_blank_rt": 0.163088
+          },
+          {
+            "feature_mz": 253.14430236816406,
+            "feature_rt": 36.5462628,
+            "matched_blank_mz": 253.14517211914062,
+            "matched_blank_rt": 33.4106
+          },
+          {
+            "feature_mz": 269.2116394042969,
+            "feature_rt": 4.79748888,
+            "matched_blank_mz": 269.211181640625,
+            "matched_blank_rt": 6.16668
+          },
+          {
+            "feature_mz": 213.1490020751953,
+            "feature_rt": 30.417266999999995,
+            "matched_blank_mz": 213.1482696533203,
+            "matched_blank_rt": 27.9204
+          },
+          {
+            "feature_mz": 197.15377807617188,
+            "feature_rt": 50.456151000000006,
+            "matched_blank_mz": 197.15748596191406,
+            "matched_blank_rt": 51.474
+          },
+          {
+            "feature_mz": 253.14453125,
+            "feature_rt": 51.085029,
+            "matched_blank_mz": 253.14517211914062,
+            "matched_blank_rt": 33.4106
+          },
+          {
+            "feature_mz": 265.1471862792969,
+            "feature_rt": 40.7426418,
+            "matched_blank_mz": 265.1462707519531,
+            "matched_blank_rt": 23.1956
+          },
+          {
+            "feature_mz": 201.11215209960938,
+            "feature_rt": 56.3241582,
+            "matched_blank_mz": 201.11141967773438,
+            "matched_blank_rt": 41.3896
+          },
+          {
+            "feature_mz": 185.11734008789062,
+            "feature_rt": 55.6272816,
+            "matched_blank_mz": 185.11688232421875,
+            "matched_blank_rt": 69.7874
+          },
+          {
+            "feature_mz": 159.10150146484375,
+            "feature_rt": 62.13979199999999,
+            "matched_blank_mz": 159.10093688964844,
+            "matched_blank_rt": 80.7841
+          },
+          {
+            "feature_mz": 167.9960174560547,
+            "feature_rt": 75.384924,
+            "matched_blank_mz": 167.99319458007812,
+            "matched_blank_rt": 84.9804
+          },
+          {
+            "feature_mz": 253.2171173095703,
+            "feature_rt": 53.349277799999996,
+            "matched_blank_mz": 253.2184295654297,
+            "matched_blank_rt": 38.1032
+          },
+          {
+            "feature_mz": 213.14883422851562,
+            "feature_rt": 86.339814,
+            "matched_blank_mz": 213.1471405029297,
+            "matched_blank_rt": 80.1428
+          },
+          {
+            "feature_mz": 197.15403747558594,
+            "feature_rt": 90.574938,
+            "matched_blank_mz": 197.1529998779297,
+            "matched_blank_rt": 80.7841
+          },
+          {
+            "feature_mz": 269.21185302734375,
+            "feature_rt": 49.2475308,
+            "matched_blank_mz": 269.2127990722656,
+            "matched_blank_rt": 39.6933
+          },
+          {
+            "feature_mz": 103.95529174804688,
+            "feature_rt": 58.073661599999994,
+            "matched_blank_mz": 103.95555877685547,
+            "matched_blank_rt": 49.7994
+          },
+          {
+            "feature_mz": 205.15879821777344,
+            "feature_rt": 49.2475308,
+            "matched_blank_mz": 205.1583709716797,
+            "matched_blank_rt": 56.1923
+          },
+          {
+            "feature_mz": 199.13304138183594,
+            "feature_rt": 70.617042,
+            "matched_blank_mz": 199.13230895996094,
+            "matched_blank_rt": 83.4659
+          },
+          {
+            "feature_mz": 159.10147094726562,
+            "feature_rt": 77.215176,
+            "matched_blank_mz": 159.10093688964844,
+            "matched_blank_rt": 80.7841
+          },
+          {
+            "feature_mz": 283.26397705078125,
+            "feature_rt": 46.256022,
+            "matched_blank_mz": 283.26568603515625,
+            "matched_blank_rt": 58.5788
+          },
+          {
+            "feature_mz": 155.00050354003906,
+            "feature_rt": 24.966888,
+            "matched_blank_mz": 155.00253295898438,
+            "matched_blank_rt": 23.9899
+          },
+          {
+            "feature_mz": 199.1332244873047,
+            "feature_rt": 130.468848,
+            "matched_blank_mz": 199.13314819335938,
+            "matched_blank_rt": 120.08700000000002
+          },
+          {
+            "feature_mz": 269.2484130859375,
+            "feature_rt": 160.597878,
+            "matched_blank_mz": 269.25030517578125,
+            "matched_blank_rt": 166.443
+          },
+          {
+            "feature_mz": 269.2116394042969,
+            "feature_rt": 160.00563,
+            "matched_blank_mz": 269.2135314941406,
+            "matched_blank_rt": 171.26
+          },
+          {
+            "feature_mz": 197.15379333496094,
+            "feature_rt": 218.685684,
+            "matched_blank_mz": 197.1567840576172,
+            "matched_blank_rt": 233.289
+          },
+          {
+            "feature_mz": 213.1488494873047,
+            "feature_rt": 229.567194,
+            "matched_blank_mz": 213.14874267578125,
+            "matched_blank_rt": 217.897
+          },
+          {
+            "feature_mz": 310.06890869140625,
+            "feature_rt": 253.20820799999998,
+            "matched_blank_mz": 310.064208984375,
+            "matched_blank_rt": 246.30500000000004
+          },
+          {
+            "feature_mz": 159.10133361816406,
+            "feature_rt": 260.52572399999997,
+            "matched_blank_mz": 159.10069274902344,
+            "matched_blank_rt": 242.178
+          },
+          {
+            "feature_mz": 197.15426635742188,
+            "feature_rt": 225.967692,
+            "matched_blank_mz": 197.1567840576172,
+            "matched_blank_rt": 233.289
+          },
+          {
+            "feature_mz": 199.13304138183594,
+            "feature_rt": 150.287868,
+            "matched_blank_mz": 199.13345336914062,
+            "matched_blank_rt": 151.931
+          },
+          {
+            "feature_mz": 169.08595275878906,
+            "feature_rt": 52.2112848,
+            "matched_blank_mz": 169.08645629882812,
+            "matched_blank_rt": 55.2097
+          },
+          {
+            "feature_mz": 185.1173858642578,
+            "feature_rt": 75.982422,
+            "matched_blank_mz": 185.11688232421875,
+            "matched_blank_rt": 69.7874
+          },
+          {
+            "feature_mz": 213.14871215820312,
+            "feature_rt": 276.27486,
+            "matched_blank_mz": 213.1488494873047,
+            "matched_blank_rt": 278.138
+          },
+          {
+            "feature_mz": 269.21173095703125,
+            "feature_rt": 254.40597000000002,
+            "matched_blank_mz": 269.2145080566406,
+            "matched_blank_rt": 268.589
+          },
+          {
+            "feature_mz": 211.1331024169922,
+            "feature_rt": 251.404836,
+            "matched_blank_mz": 211.1326904296875,
+            "matched_blank_rt": 246.30500000000004
+          },
+          {
+            "feature_mz": 238.91226196289062,
+            "feature_rt": 264.72297599999996,
+            "matched_blank_mz": 238.90853881835938,
+            "matched_blank_rt": 259.045
+          },
+          {
+            "feature_mz": 253.21652221679688,
+            "feature_rt": 162.38538,
+            "matched_blank_mz": 253.21826171875,
+            "matched_blank_rt": 172.064
+          },
+          {
+            "feature_mz": 213.1487274169922,
+            "feature_rt": 310.745766,
+            "matched_blank_mz": 213.1497039794922,
+            "matched_blank_rt": 312.804
+          },
+          {
+            "feature_mz": 199.1330108642578,
+            "feature_rt": 313.13689800000003,
+            "matched_blank_mz": 199.13258361816406,
+            "matched_blank_rt": 299.037
+          },
+          {
+            "feature_mz": 238.91177368164062,
+            "feature_rt": 321.645906,
+            "matched_blank_mz": 238.9084930419922,
+            "matched_blank_rt": 303.957
+          },
+          {
+            "feature_mz": 108.04393768310547,
+            "feature_rt": 56.909914799999996,
+            "matched_blank_mz": 108.04458618164062,
+            "matched_blank_rt": 68.9872
+          },
+          {
+            "feature_mz": 211.13340759277344,
+            "feature_rt": 313.13689800000003,
+            "matched_blank_mz": 211.13311767578125,
+            "matched_blank_rt": 323.216
+          },
+          {
+            "feature_mz": 157.08578491210938,
+            "feature_rt": 60.969660000000005,
+            "matched_blank_mz": 157.0839385986328,
+            "matched_blank_rt": 42.1902
+          },
+          {
+            "feature_mz": 122.03144073486328,
+            "feature_rt": 58.073661599999994,
+            "matched_blank_mz": 122.031494140625,
+            "matched_blank_rt": 68.1881
+          },
+          {
+            "feature_mz": 283.26348876953125,
+            "feature_rt": 394.575972,
+            "matched_blank_mz": 283.26568603515625,
+            "matched_blank_rt": 390.9
+          },
+          {
+            "feature_mz": 169.08578491210938,
+            "feature_rt": 473.827044,
+            "matched_blank_mz": 169.08547973632812,
+            "matched_blank_rt": 459.692
+          },
+          {
+            "feature_mz": 169.08627319335938,
+            "feature_rt": 507.47707799999995,
+            "matched_blank_mz": 169.08522033691406,
+            "matched_blank_rt": 502.03899999999993
+          },
+          {
+            "feature_mz": 169.0857696533203,
+            "feature_rt": 536.684358,
+            "matched_blank_mz": 169.08641052246094,
+            "matched_blank_rt": 517.979
+          },
+          {
+            "feature_mz": 169.08599853515625,
+            "feature_rt": 575.50338,
+            "matched_blank_mz": 169.08619689941406,
+            "matched_blank_rt": 587.009
+          },
+          {
+            "feature_mz": 185.15353393554688,
+            "feature_rt": 399.30872999999997,
+            "matched_blank_mz": 185.15313720703125,
+            "matched_blank_rt": 390.103
+          },
+          {
+            "feature_mz": 205.15896606445312,
+            "feature_rt": 579.4403880000001,
+            "matched_blank_mz": 205.1593475341797,
+            "matched_blank_rt": 566.964
+          },
+          {
+            "feature_mz": 198.95335388183594,
+            "feature_rt": 635.35884,
+            "matched_blank_mz": 198.95639038085938,
+            "matched_blank_rt": 653.397
+          },
+          {
+            "feature_mz": 205.15867614746094,
+            "feature_rt": 634.7922,
+            "matched_blank_mz": 205.15911865234375,
+            "matched_blank_rt": 616.631
+          },
+          {
+            "feature_mz": 198.953369140625,
+            "feature_rt": 654.6430799999999,
+            "matched_blank_mz": 198.95639038085938,
+            "matched_blank_rt": 653.397
+          },
+          {
+            "feature_mz": 211.13316345214844,
+            "feature_rt": 675.7547400000001,
+            "matched_blank_mz": 211.13302612304688,
+            "matched_blank_rt": 692.356
+          },
+          {
+            "feature_mz": 198.9533233642578,
+            "feature_rt": 691.76862,
+            "matched_blank_mz": 198.956298828125,
+            "matched_blank_rt": 679.661
+          },
+          {
+            "feature_mz": 139.04995727539062,
+            "feature_rt": 714.36,
+            "matched_blank_mz": 139.04736328125,
+            "matched_blank_rt": 721.821
+          },
+          {
+            "feature_mz": 169.0858612060547,
+            "feature_rt": 585.05052,
+            "matched_blank_mz": 169.08619689941406,
+            "matched_blank_rt": 587.009
+          },
+          {
+            "feature_mz": 147.06614685058594,
+            "feature_rt": 783.2654399999999,
+            "matched_blank_mz": 147.06552124023438,
+            "matched_blank_rt": 779.924
+          },
+          {
+            "feature_mz": 123.04386138916016,
+            "feature_rt": 780.5023199999999,
+            "matched_blank_mz": 123.04405975341797,
+            "matched_blank_rt": 785.639
+          },
+          {
+            "feature_mz": 213.1487579345703,
+            "feature_rt": 786.64644,
+            "matched_blank_mz": 213.1486053466797,
+            "matched_blank_rt": 792.893
+          },
+          {
+            "feature_mz": 123.0434341430664,
+            "feature_rt": 804.56184,
+            "matched_blank_mz": 123.04405975341797,
+            "matched_blank_rt": 785.639
+          },
+          {
+            "feature_mz": 211.13278198242188,
+            "feature_rt": 808.8945,
+            "matched_blank_mz": 211.13316345214844,
+            "matched_blank_rt": 817.435
+          },
+          {
+            "feature_mz": 213.1492156982422,
+            "feature_rt": 801.8500799999999,
+            "matched_blank_mz": 213.1486053466797,
+            "matched_blank_rt": 792.893
+          },
+          {
+            "feature_mz": 111.0549545288086,
+            "feature_rt": 825.92736,
+            "matched_blank_mz": 111.05538177490234,
+            "matched_blank_rt": 845.456
+          },
+          {
+            "feature_mz": 211.13316345214844,
+            "feature_rt": 834.879,
+            "matched_blank_mz": 211.13316345214844,
+            "matched_blank_rt": 817.435
+          },
+          {
+            "feature_mz": 169.085693359375,
+            "feature_rt": 828.23802,
+            "matched_blank_mz": 169.086181640625,
+            "matched_blank_rt": 822.243
+          },
+          {
+            "feature_mz": 163.0390625,
+            "feature_rt": 812.72484,
+            "matched_blank_mz": 163.0384979248047,
+            "matched_blank_rt": 796.803
+          },
+          {
+            "feature_mz": 213.14866638183594,
+            "feature_rt": 864.1234199999999,
+            "matched_blank_mz": 213.14834594726562,
+            "matched_blank_rt": 855.145
+          },
+          {
+            "feature_mz": 185.11734008789062,
+            "feature_rt": 738.86268,
+            "matched_blank_mz": 185.1164093017578,
+            "matched_blank_rt": 744.855
+          },
+          {
+            "feature_mz": 211.13314819335938,
+            "feature_rt": 897.34554,
+            "matched_blank_mz": 211.13270568847656,
+            "matched_blank_rt": 912.743
+          },
+          {
+            "feature_mz": 123.0436019897461,
+            "feature_rt": 865.7514,
+            "matched_blank_mz": 123.0441665649414,
+            "matched_blank_rt": 852.782
+          },
+          {
+            "feature_mz": 225.06166076660156,
+            "feature_rt": 928.62198,
+            "matched_blank_mz": 225.061279296875,
+            "matched_blank_rt": 942.172
+          },
+          {
+            "feature_mz": 169.08567810058594,
+            "feature_rt": 919.76718,
+            "matched_blank_mz": 169.08590698242188,
+            "matched_blank_rt": 937.366
+          },
+          {
+            "feature_mz": 211.13296508789062,
+            "feature_rt": 925.7530800000001,
+            "matched_blank_mz": 211.13270568847656,
+            "matched_blank_rt": 912.743
+          },
+          {
+            "feature_mz": 193.10714721679688,
+            "feature_rt": 890.1905399999999,
+            "matched_blank_mz": 193.10707092285156,
+            "matched_blank_rt": 883.896
+          },
+          {
+            "feature_mz": 111.05486297607422,
+            "feature_rt": 929.72508,
+            "matched_blank_mz": 111.0554428100586,
+            "matched_blank_rt": 931.827
+          },
+          {
+            "feature_mz": 293.17547607421875,
+            "feature_rt": 929.17182,
+            "matched_blank_mz": 293.177490234375,
+            "matched_blank_rt": 924.552
+          },
+          {
+            "feature_mz": 213.14942932128906,
+            "feature_rt": 927.51732,
+            "matched_blank_mz": 213.14840698242188,
+            "matched_blank_rt": 941.372
+          },
+          {
+            "feature_mz": 139.0498504638672,
+            "feature_rt": 870.76056,
+            "matched_blank_mz": 139.0471954345703,
+            "matched_blank_rt": 860.813
+          },
+          {
+            "feature_mz": 299.2586364746094,
+            "feature_rt": 941.76546,
+            "matched_blank_mz": 299.2608642578125,
+            "matched_blank_rt": 942.172
+          },
+          {
+            "feature_mz": 297.2430419921875,
+            "feature_rt": 941.76546,
+            "matched_blank_mz": 297.2456359863281,
+            "matched_blank_rt": 953.308
+          },
+          {
+            "feature_mz": 293.1781921386719,
+            "feature_rt": 942.3075,
+            "matched_blank_mz": 293.177490234375,
+            "matched_blank_rt": 924.552
+          },
+          {
+            "feature_mz": 269.2122802734375,
+            "feature_rt": 936.88986,
+            "matched_blank_mz": 269.2126159667969,
+            "matched_blank_rt": 949.266
+          },
+          {
+            "feature_mz": 123.04370880126953,
+            "feature_rt": 927.51732,
+            "matched_blank_mz": 123.0440902709961,
+            "matched_blank_rt": 925.345
+          },
+          {
+            "feature_mz": 122.03128051757812,
+            "feature_rt": 366.258066,
+            "matched_blank_mz": 122.03180694580078,
+            "matched_blank_rt": 356.396
+          },
+          {
+            "feature_mz": 129.05433654785156,
+            "feature_rt": 842.79666,
+            "matched_blank_mz": 129.0521240234375,
+            "matched_blank_rt": 834.984
+          },
+          {
+            "feature_mz": 157.08584594726562,
+            "feature_rt": 939.0598200000001,
+            "matched_blank_mz": 157.08334350585938,
+            "matched_blank_rt": 958.846
+          },
+          {
+            "feature_mz": 159.10134887695312,
+            "feature_rt": 865.7514,
+            "matched_blank_mz": 159.10122680664062,
+            "matched_blank_rt": 883.896
+          },
+          {
+            "feature_mz": 233.15374755859375,
+            "feature_rt": 941.76546,
+            "matched_blank_mz": 233.15731811523438,
+            "matched_blank_rt": 946.124
+          },
+          {
+            "feature_mz": 169.08558654785156,
+            "feature_rt": 942.8511000000001,
+            "matched_blank_mz": 169.08590698242188,
+            "matched_blank_rt": 937.366
+          },
+          {
+            "feature_mz": 253.2167510986328,
+            "feature_rt": 941.22648,
+            "matched_blank_mz": 253.21839904785156,
+            "matched_blank_rt": 934.982
+          }
+        ]
+      }
+    },
+    "n_blank_features": 22005
+  },
+  "log_entry": {
+    "stage": "blank_qc",
+    "timestamp": "2026-07-15T14:09:02.209337+00:00",
+    "parameters": {
+      "mz_tolerance_ppm": 20.0,
+      "rt_tolerance_sec": 20.0
+    },
+    "metrics": {
+      "n_blank_features": 22005
+    },
+    "warnings": [
+      "Amino_acid_Std_neg_Tryptophan-442: 117/4034 features overlap with blank background",
+      "Amino_acid_Std_neg_Glycine-414: 101/3406 features overlap with blank background"
+    ],
+    "input_files": [
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/BLK_MEOH_IPA-380.featurejson"
+    ],
+    "output_dirs": []
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "entry_id": "LIB_000001",
+    "compound_name": "Tryptophan",
+    "precursor_mz": 203.08175659179688,
+    "rt_sec": 164.66679599999998,
+    "adduct": "[M-H]-",
+    "charge": -1,
+    "mass_error_ppm": -0.00165234987119338,
+    "ms2_spectrum": [
+      [
+        67.31434631347656,
+        10051345.0
+      ],
+      [
+        72.00759887695312,
+        53019500.0
+      ],
+      [
+        74.02325439453125,
+        171379072.0
+      ],
+      [
+        116.04927062988281,
+        847221120.0
+      ],
+      [
+        130.06492614746094,
+        26452754.0
+      ],
+      [
+        142.06491088867188,
+        174635120.0
+      ]
+    ],
+    "spectral_purity": 0.9930226700253285,
+    "source_sample_id": "Amino_acid_Std_neg_Tryptophan-442",
+    "blank_flagged": false,
+    "library_match_id": "MSP_000051",
+    "match_score": 0.8598801581569099,
+    "known_identity": "Tryptophan",
+    "is_correct_match": true
+  },
+  {
+    "entry_id": "LIB_000002",
+    "compound_name": "Glycine",
+    "precursor_mz": 74.02332305908203,
+    "rt_sec": 354.418182,
+    "adduct": "[M-H]-",
+    "charge": -1,
+    "mass_error_ppm": -0.02272430574336809,
+    "ms2_spectrum": [
+      [
+        55.19908142089844,
+        410512.3125
+      ],
+      [
+        57.611968994140625,
+        420975.625
+      ],
+      [
+        66.7303466796875,
+        417542.21875
+      ],
+      [
+        74.02338409423828,
+        3606039.0
+      ],
+      [
+        75.30306243896484,
+        369576.28125
+      ],
+      [
+        80.71041107177734,
+        378279.125
+      ],
+      [
+        86.82290649414062,
+        402007.5625
+      ],
+      [
+        91.71412658691406,
+        396120.09375
+      ],
+      [
+        92.79996490478516,
+        398838.21875
+      ]
+    ],
+    "spectral_purity": 0.9883841012200033,
+    "source_sample_id": "Amino_acid_Std_neg_Glycine-414",
+    "blank_flagged": false,
+    "library_match_id": null,
+    "match_score": null,
+    "known_identity": "Glycine",
+    "is_correct_match": false
+  }
+]

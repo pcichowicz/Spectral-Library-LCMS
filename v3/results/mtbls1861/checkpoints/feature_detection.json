@@ -1,0 +1,84 @@
+{
+  "stage": "feature_detection",
+  "key": "5f21edd549529847f497ed95d0532addeeaff29436a288f282340b99eac62922",
+  "qc_metrics": {
+    "results": {
+      "Amino_acid_Std_neg_Tryptophan-442": {
+        "status": "ok",
+        "summary": {
+          "n_features": 4034,
+          "mz_range": [
+            60.01567077636719,
+            672.1748046875
+          ],
+          "rt_range": [
+            0.457637022,
+            959.74566
+          ],
+          "total_intensity": 7539501179.592773
+        }
+      },
+      "Amino_acid_Std_neg_Glycine-414": {
+        "status": "ok",
+        "summary": {
+          "n_features": 3406,
+          "mz_range": [
+            60.0009765625,
+            499.1473083496094
+          ],
+          "rt_range": [
+            1.16985888,
+            960.1042199999999
+          ],
+          "total_intensity": 3607395066.763672
+        }
+      },
+      "BLK_MEOH_IPA-380": {
+        "status": "ok",
+        "summary": {
+          "n_features": 22005,
+          "mz_range": [
+            100.07582092285156,
+            1499.9056396484375
+          ],
+          "rt_range": [
+            0.163088,
+            1560.09
+          ],
+          "total_intensity": 3886894595.602539
+        }
+      }
+    },
+    "n_attempted": 3,
+    "n_with_features": 3
+  },
+  "log_entry": {
+    "stage": "feature_detection",
+    "timestamp": "2026-07-15T14:08:10.594943+00:00",
+    "parameters": {
+      "mass_error_ppm": 5.0,
+      "peak_width": [
+        10,
+        60
+      ],
+      "max_gaps": 2,
+      "min_scans": 2,
+      "noise_threshold": 8000.0
+    },
+    "metrics": {
+      "n_attempted": 3,
+      "n_with_features": 3
+    },
+    "warnings": [],
+    "input_files": [
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Tryptophan-442.mzML",
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Glycine-414.mzML",
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/BLK_MEOH_IPA-380.mzML"
+    ],
+    "output_dirs": [
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/Amino_acid_Std_neg_Tryptophan-442.featurejson",
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/Amino_acid_Std_neg_Glycine-414.featurejson",
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/BLK_MEOH_IPA-380.featurejson"
+    ]
+  }
+}

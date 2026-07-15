@@ -1,0 +1,37 @@
+{
+  "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/mtbls1861_sample_metadata.csv": {
+    "mtime": 1783699266.134153,
+    "size": 254,
+    "sha256": "0907ba63181fe96b055837b3eeed79ef589107bc9f6cfd1e80b8e43687aeb72d"
+  },
+  "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Glycine-414.mzML": {
+    "mtime": 1782389691.8535025,
+    "size": 71358207,
+    "sha256": "699054c79ae6a2990393b8c64556d86c20dbe496feced4f07f7ee95c259fa17f"
+  },
+  "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Tryptophan-442.mzML": {
+    "mtime": 1783122414.9163594,
+    "size": 74940099,
+    "sha256": "c5901b71f15b6d78d6e07986e878696920c368c6c1f021aa4a0f6a2b7736be62"
+  },
+  "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/BLK_MEOH_IPA-380.mzML": {
+    "mtime": 1782389409.451488,
+    "size": 83372058,
+    "sha256": "425c238cc6bfb695a1e3aa4f165cbbf66e342ab5c98b97a934ba2aaa34157a7b"
+  },
+  "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/Amino_acid_Std_neg_Glycine-414.featurejson": {
+    "mtime": 1784123346.2427459,
+    "size": 376746,
+    "sha256": "c446d4170adf80cdca201eeb81e81871a6e523a86ffbc3fbf738b43b108d24fd"
+  },
+  "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/Amino_acid_Std_neg_Tryptophan-442.featurejson": {
+    "mtime": 1784123238.3935928,
+    "size": 446918,
+    "sha256": "57362266765b9c7fdf540de50e9a0de858f1fb26e3fd30349aa16d3f6195390a"
+  },
+  "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/BLK_MEOH_IPA-380.featurejson": {
+    "mtime": 1784124490.5659032,
+    "size": 2341245,
+    "sha256": "27eec7e20bb837bd1364d09eac4fc416f0125aae551988818f3879368879b376"
+  }
+}

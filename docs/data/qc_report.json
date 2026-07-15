@@ -1,0 +1,194 @@
+{
+  "study_id": "mtbls1861",
+  "config_version": "v0.1",
+  "dataset_profile": "standards_only",
+  "qc_metrics": {
+    "blank_background": {
+      "n_blank_features_pooled": 22005,
+      "per_sample": {
+        "Amino_acid_Std_neg_Tryptophan-442": {
+          "n_features": 4034,
+          "n_flagged": 117,
+          "flag_rate": 0.02900347050074368
+        },
+        "Amino_acid_Std_neg_Glycine-414": {
+          "n_features": 3406,
+          "n_flagged": 101,
+          "flag_rate": 0.029653552554315912
+        }
+      }
+    },
+    "mass_accuracy": {
+      "n_measurements": 2,
+      "mean_ppm": -0.012188327807280734,
+      "max_abs_ppm": 0.02272430574336809,
+      "std_ppm": 0.010535977936087355
+    },
+    "identification_rate": {
+      "n_checked": 2,
+      "n_confirmed": 2,
+      "rate": 1.0
+    },
+    "spectral_purity": {
+      "n_attempted": 2,
+      "n_computed": 2,
+      "n_below_threshold": 0,
+      "median_purity": 0.9907033856226659
+    }
+  },
+  "processing_log": [
+    {
+      "stage": "ingestion",
+      "timestamp": "2026-07-13T22:19:31.402906+00:00",
+      "parameters": {
+        "mzml_dir": "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861"
+      },
+      "metrics": {
+        "n_found": 3,
+        "n_missing": 0
+      },
+      "warnings": [],
+      "input_files": [
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Tryptophan-442.mzML",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Glycine-414.mzML",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/BLK_MEOH_IPA-380.mzML"
+      ],
+      "output_dirs": [],
+      "config_version": "v0.1",
+      "software_versions": {
+        "python": "3.13.5",
+        "pymzml": "2.6"
+      }
+    },
+    {
+      "step": "system_suitability",
+      "timestamp": "2026-07-11T17:42:17.485323+00:00",
+      "parameters": {
+        "ppm_tolerance": 5.0
+      },
+      "metrics": {
+        "n_checked": 2,
+        "n_confirmed": 2
+      },
+      "warnings": [],
+      "config_version": "v0.1",
+      "software_versions": {
+        "python": "3.13.5",
+        "pymzml": "2.6"
+      }
+    },
+    {
+      "step": "feature_detection",
+      "timestamp": "2026-07-11T18:09:48.815846+00:00",
+      "parameters": {
+        "mass_error_ppm": 5.0,
+        "peak_width": [
+          10,
+          60
+        ],
+        "max_gaps": 2,
+        "min_scans": 2,
+        "noise_threshold": 8000.0
+      },
+      "metrics": {
+        "n_attempted": 3,
+        "n_with_features": 3
+      },
+      "warnings": [],
+      "config_version": "v0.1",
+      "software_versions": {
+        "python": "3.13.5",
+        "pymzml": "2.6"
+      }
+    },
+    {
+      "step": "blank_qc",
+      "timestamp": "2026-07-11T18:10:46.044930+00:00",
+      "parameters": {
+        "mz_tolerance_ppm": 20.0,
+        "rt_tolerance_sec": 20.0
+      },
+      "metrics": {
+        "n_blank_features": 22005
+      },
+      "warnings": [
+        "Amino_acid_Std_neg_Tryptophan-442: 117/4034 features overlap with blank background",
+        "Amino_acid_Std_neg_Glycine-414: 101/3406 features overlap with blank background"
+      ],
+      "config_version": "v0.1",
+      "software_versions": {
+        "python": "3.13.5",
+        "pymzml": "2.6"
+      }
+    },
+    {
+      "stage": "adduct_annotation",
+      "timestamp": "2026-07-13T22:19:38.987983+00:00",
+      "parameters": {
+        "candidate_adducts": [
+          "[M-H]-",
+          "[M+Cl]-",
+          "[M+FA-H]-",
+          "[2M-H]-",
+          "[M+Na-2H]-"
+        ],
+        "ppm_tolerance": 5.0
+      },
+      "metrics": {
+        "n_compounds_checked": 2,
+        "n_with_extra_adducts": 1
+      },
+      "warnings": [],
+      "input_files": [],
+      "output_dirs": [],
+      "config_version": "v0.1",
+      "software_versions": {
+        "python": "3.13.5",
+        "pymzml": "2.6"
+      }
+    },
+    {
+      "stage": "spectral_purity",
+      "timestamp": "2026-07-13T22:19:47.571046+00:00",
+      "parameters": {
+        "isolation_window_da": 1.0,
+        "min_purity": 0.7
+      },
+      "metrics": {
+        "n_attempted": 2,
+        "n_computed": 2,
+        "n_below_threshold": 0
+      },
+      "warnings": [],
+      "input_files": [],
+      "output_dirs": [],
+      "config_version": "v0.1",
+      "software_versions": {
+        "python": "3.13.5",
+        "pymzml": "2.6"
+      }
+    },
+    {
+      "stage": "library_assembly",
+      "timestamp": "2026-07-13T22:19:47.629545+00:00",
+      "parameters": {
+        "mz_tolerance_ppm": 5.0
+      },
+      "metrics": {
+        "n_entries": 2
+      },
+      "warnings": [],
+      "input_files": [
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/Amino_acid_Std_neg_Tryptophan-442.featurejson",
+        "/Users/patrick/Desktop/lcms_analysis_api/v3/results/mtbls1861/features/Amino_acid_Std_neg_Glycine-414.featurejson"
+      ],
+      "output_dirs": [],
+      "config_version": "v0.1",
+      "software_versions": {
+        "python": "3.13.5",
+        "pymzml": "2.6"
+      }
+    }
+  ],
+  "raw_qc_metrics": {}
+}

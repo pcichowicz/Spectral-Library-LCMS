@@ -1,0 +1,3 @@
+entry_id,compound_name,precursor_mz,rt_sec,adduct,charge,mass_error_ppm,n_ms2_peaks,spectral_purity,source_sample_id,blank_flagged,library_match_id,match_score,known_identity,is_correct_match
+LIB_000001,Tryptophan,203.08175659179688,164.66679599999998,[M-H]-,-1,-0.00165234987119338,0,0.9930226700253285,Amino_acid_Std_neg_Tryptophan-442,False,,,Tryptophan,
+LIB_000002,Glycine,74.02332305908203,354.418182,[M-H]-,-1,-0.02272430574336809,0,0.9883841012200033,Amino_acid_Std_neg_Glycine-414,False,,,Glycine,

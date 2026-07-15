@@ -1,0 +1,5 @@
+sample_id,sample_role,expected_compounds,expected_mz,replicate_group
+
+Amino_acid_Std_neg_Tryptophan-442,single_standard,["Tryptophan"],[203.0817],1
+Amino_acid_Std_neg_Glycine-414,single_standard,["Glycine"],[74.02334],1
+BLK_MEOH_IPA-380,solvent_blank,,,

@@ -1,0 +1,15 @@
+ADP_phosphate_mix_neg-447,standard_mix,"[""Acetyl coA"", ""Adenosine diphosphate"", ""Adenosine monophosphate"", ""BETA-NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE"", ""Cytidine diphosphate"", ""D-FRUCTOSE 6-PHOSPHATE"", ""D-GLUCOSAMINE 6-PHOSPHATE"", ""D-GLUCOSE-6-PHOSPHATE"", ""D-MANNOSE 6-PHOSPHATE"", ""D-RIBULOSE 1,5-BISPHOSPHATE"", ""DAMP"", ""ETHANOLAMINE PHOSPHATE"", ""FRUCTOSE 1,6-BIPHOSPHATE"", ""GLYCEROL 2-PHOSPHATE"", ""GUANOSINE, 5-CYCLIC MONOPHOSPHATE"", ""Guanosine 5_-diphosphate"", ""Guanosine triphosphate"", ""INOSINE 5-PHOSPHATE"", ""INOSINE DIPHOSPHATE"", ""INOSINE TRIPHOSPHATE"", ""NAD"", ""URIDINE-5-MONOPHOSPHATE""]","[808.1168, 426.0225, 346.0559, 742.0697, 402.01, 259.0224, 258.0383, 259.0224, 259.0224, 308.9783, 330.061, 140.01, 338.99, 171.0053, 344.0402, 442.0174, 521.9819, 347.0397, 427.01, 506.97, 662.1004, 323.0285]","[1.73, 15.409, 10.185, 12.717, 13.994, 8.197, 8.189, 8.377, 8.142, 1.668, 8.914, 7.417, 15.657, 1.965, 6.95, 18.379, 6.64, 10.728, 19.599, 1.637, 4.711, 8.995]",,"INFERRED from MAF via chemical-class clustering (nucleotide/phosphate keyword match on negative-mode compounds), NOT confirmed via sample-to-compound linkage -- MAF's per-sample abundance columns are entirely empty for this study. Confidence: medium-high (distinct chemical class, low risk of overlap with other samples' compounds)."
+Fatty_acid_mix_Elena_neg_amo_act2-389,standard_mix,"
+[""Arachidic acid"",
+""Arachidonic acid"",
+""Behenic acid"",
+""DOCOSAHEXAENOIC ACID"", ""Decanoic acid"", ""Dodecanoic acid"", ""ERUCIC ACID"", ""HEPTADECANOATE"", ""LINOLEATE"", ""Lignoceric acid"", ""Linolenic acid"", ""Myristic acid"", ""NONANOATE"", ""Palmitic acid"", ""Pentadecanoic acid"", ""Petroselinic acid 1"", ""Stearic acid"", ""TRICOSANOIC ACID"", ""Tridecanoic acid"", ""Undecanoic acid""]",
+[311.2947,
+303.232,
+339.3257,
+327.2323, 171.1376, 199.1689, 337.31, 269.2478, 279.2321, 367.357, 277.2164, 227.2006, 157.122, 255.2322, 241.2163, 281.2479, 283.2636, 353.3414, 213.1847, 185.1531]","[7.406, 4.158, 9.229, 9.231, 1.726, 2.406, 7.621, 5.329, 4.451, 11.138, 3.688, 3.844, 1.682, 4.827, 3.92, 5.089, 6.024, 10.199, 3.044, 1.864]",,"INFERRED from MAF via chemical-class clustering (fatty acid names, negative-mode), NOT confirmed via sample-to-compound linkage -- MAF's per-sample abundance columns are entirely empty for this study. Confidence: medium-high (distinct chemical class, low risk of overlap with other samples' compounds)."
+
+Arachidic acid 311.2947
+Arachidonic acid 303.232
+Behenic acid 339.3257
+DOCOSAHEXAENOIC ACID 327.2323

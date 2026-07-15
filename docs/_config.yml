@@ -1,0 +1,37 @@
+title: LC-MS Pipeline
+description: >-
+  A validation-first LC-MS/MS pipeline, developed against MTBLS1861's
+  reference-standard runs and built to generalize to real untargeted
+  metabolomics cohorts.
+
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+search_enabled: true
+heading_anchors: true
+
+# TODO: fill these in once the repo is public
+# aux_links:
+#   "View on GitHub":
+#     - "https://github.com/<your-username>/<your-repo>"
+
+nav_external_links:
+  - title: MTBLS1861 (source study)
+    url: https://www.ebi.ac.uk/metabolights/MTBLS1861
+
+footer_content: >-
+  Pipeline docs generated from the project's own architecture notes and
+  QC output -- see <a href="./qc-report">QC Report</a> for the latest
+  validation run.
+
+callouts:
+  status-done:
+    color: green
+  status-partial:
+    color: yellow
+  status-todo:
+    color: red

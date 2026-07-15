@@ -1,0 +1,53 @@
+{
+  "stage": "system_suitability",
+  "key": "50e29fbd69a7fff9b450be86c088cb283bf280a901986e9a60718f6a9e852a10",
+  "qc_metrics": {
+    "results": {
+      "Amino_acid_Std_neg_Tryptophan-442": {
+        "status": "checked",
+        "matches": [
+          {
+            "compound": "Tryptophan",
+            "expected_mz": 203.0817,
+            "matched_mz": 203.081699664438,
+            "mass_error_ppm": -0.00165234987119338,
+            "confirmed": true
+          }
+        ]
+      },
+      "Amino_acid_Std_neg_Glycine-414": {
+        "status": "checked",
+        "matches": [
+          {
+            "compound": "Glycine",
+            "expected_mz": 74.02334,
+            "matched_mz": 74.023338317871,
+            "mass_error_ppm": -0.02272430574336809,
+            "confirmed": true
+          }
+        ]
+      }
+    },
+    "identification_rate": 1.0,
+    "n_checked": 2,
+    "n_confirmed": 2
+  },
+  "log_entry": {
+    "stage": "system_suitability",
+    "timestamp": "2026-07-15T13:44:43.265776+00:00",
+    "parameters": {
+      "ppm_tolerance": 5.0
+    },
+    "metrics": {
+      "n_checked": 2,
+      "n_confirmed": 2
+    },
+    "warnings": [],
+    "input_files": [
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/mtbls1861_sample_metadata.csv",
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Tryptophan-442.mzML",
+      "/Users/patrick/Desktop/lcms_analysis_api/v3/data/mtbls1861/Amino_acid_Std_neg_Glycine-414.mzML"
+    ],
+    "output_dirs": []
+  }
+}
