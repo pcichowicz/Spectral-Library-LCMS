@@ -7,10 +7,6 @@ description: >-
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 
-kramdown:
-  input: GFM # Default on GitHub Pages - does NOT support {: .class }
-  # Changing this to 'kramdown' enables {: .class } but may break tables/lists
-
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
@@ -18,10 +14,19 @@ plugins:
 search_enabled: true
 heading_anchors: true
 
+# Without this, kramdown treats content inside any block-level HTML tag
+# (<div>, etc.) as raw HTML and stops parsing markdown syntax within it --
+# headers, bold, links, all of it get dumped through as literal text.
+# This was the cause of "## Validation summary" rendering as plain text
+# on the QC Report page. Setting this globally means you don't have to
+# remember to add markdown="1" to every individual HTML block by hand.
+kramdown:
+  parse_block_html: true
+
 # TODO: fill these in once the repo is public
-aux_links:
-  "View on GitHub":
-    - "https://github.com/<your-username>/<your-repo>"
+# aux_links:
+#   "View on GitHub":
+#     - "https://github.com/<your-username>/<your-repo>"
 
 nav_external_links:
   - title: MTBLS1861 (source study)

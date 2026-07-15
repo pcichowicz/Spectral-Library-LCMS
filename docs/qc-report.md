@@ -2,10 +2,10 @@
 layout: default
 title: QC Report
 nav_order: 5
-has_toc: false
 ---
 
 # QC Report
+{: .no_toc }
 
 This page renders the pipeline's own output -- `qc_report.json` and
 `library.csv` -- committed to `docs/data/` by
@@ -17,7 +17,7 @@ not this page.
 <div id="qc-loading">Loading latest report…</div>
 <div id="qc-error" style="display:none; color:#c1121f;"></div>
 
-<div id="qc-content" style="display:none;">
+<div id="qc-content" style="display:none;" markdown="1">
 
 <div id="qc-meta"></div>
 
