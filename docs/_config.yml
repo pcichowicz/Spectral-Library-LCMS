@@ -15,9 +15,9 @@ search_enabled: true
 heading_anchors: true
 
 # TODO: fill these in once the repo is public
-# aux_links:
-#   "View on GitHub":
-#     - "https://github.com/<your-username>/<your-repo>"
+aux_links:
+  "View on GitHub":
+    - "https://github.com/<your-username>/<your-repo>"
 
 nav_external_links:
   - title: MTBLS1861 (source study)
